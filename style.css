@@ -1,0 +1,64 @@
+.wrapper {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    margin-bottom: 20px;
+}
+
+.button img {
+    width: 80%; /* Agora o tamanho será relativo à largura do contêiner pai */
+    max-width: 200px; /* Define um limite máximo para a largura da imagem */
+    height: auto; /* Mantém a proporção */
+}
+
+.button span {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Estilos específicos para diferentes métodos de pagamento */
+#itau {
+    color: orange;
+}
+
+#santander {
+    color: red;
+}
+
+#Sicredi {
+    color: green;
+}
+
+#C6 {
+    color: black;
+}
+
+#inter {
+    color: orange;
+}
+
+#nubank {
+    color: blueviolet;
+}
+
+/* Estilos para tornar o texto responsivo */
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+/* Estilos para tornar o botão responsivo */
+.button {
+    padding: 10px 20px; /* Adiciona um preenchimento ao botão */
+    font-size: 16px; /* Tamanho da fonte */
+}
